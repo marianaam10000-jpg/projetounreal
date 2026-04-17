@@ -4,13 +4,12 @@ SegundaparteRecrutamento
 # Simulador USV Otter - Unreal Engine 5
 
 ## Descrição do Projeto
-Este projeto é um simulador físico e de sensores desenvolvido em Unreal Engine 5 (C++ e Blueprints) para o Veículo de Superfície Não Tripulado - Otter da Maritime Robotics. O simulador foca-se no realismo hidrodinâmico, implementando modelos matemáticos avançados baseados nas equações 6-DOF de Fossen, e um conjunto de sensores marítimos. Para mais informações vêr o documento pdf.
+Este projeto é um simulador físico e de sensores desenvolvido em Unreal Engine 5 (C++ e Blueprints) para o Veículo de Superfície Não Tripulado - Otter Maritime Robotics. O simulador foca-se no realismo hidrodinâmico, implementando modelos matemáticos avançados baseados nas equações 6-DOF de Fossen, e um conjunto de sensores marítimos. Para mais informações vêr o documento pdf.
 
 ## Principais Funcionalidades
 
 ###  Física e Hidrodinâmica
 Modelo 6-DOF (Fossen): Implementação em C++ dos 6 graus de liberdade (Surge, Sway, Heave, Roll, Pitch, Yaw) utilizando tensores de massa adicionada (Added Mass) e amortecimento linear/angular (Damping).
-* **Flutuabilidade Dinâmica (Teoria de Arquimedes):** Cálculo de empuxo em tempo real que discretiza o casco em múltiplos pontos virtuais (interpolação entre *sockets*) para reagir de forma suave e realista à ondulação e ao perfil curvo do catamarã.
 Propulsão: Simulação de dois motores (Left e Right Thrusters) utilizando a curva de conversão de corrente para força da BlueRobotics, incluindo cálculo de torques baseados na distância ao centro de massa.
 
 ### Sensores Simulados
