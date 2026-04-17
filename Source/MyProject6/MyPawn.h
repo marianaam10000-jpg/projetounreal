@@ -231,7 +231,7 @@ public:
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fossen|Sensors|Settings")
     float variacaoruido_AHRS = 1.0f;
 
-    // O "rolo de filme" que criaste no motor
+    
     UPROPERTY(EditAnywhere, Category = "Camera")
     class UTextureRenderTarget2D* CameraRenderTarget;
 

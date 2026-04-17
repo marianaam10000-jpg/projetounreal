@@ -329,7 +329,7 @@ void AMyPawn::SimularLidar2D()
         rotacao_LiDAR = GetActorRotation(); // caso não consiga encontrar o socket-rot pivot
     }
 
-    // 2. O Loop que dispara os lasers à volta do barco
+    // O Loop que dispara os lasers à volta do barco
     for (int i = 0; i < numero_raios; i++)
     {
         // ângulo para cada feixe de luz
